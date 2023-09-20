@@ -1,0 +1,94 @@
+Task 1: Describe the process of creating a new issue or bug report in the issue tracking system.
+
+1)Login and Access the System: Log in to your issue tracking system
+
+2)Create a New Issue/Bug Report:
+Find and click on the "Create Issue" or "New Issue" button
+
+3)Issue Type Selection:
+Choose the appropriate issue type such as "Bug" "Task," "Feature," or custom types based on your project's workflow.
+
+4)Issue Details:
+  Fill in the necessary details for the issue, including:
+  Title
+  Description
+ Task 1: Describe the process of creating a new issue or bug report in the issue tracking system.
+
+1)Login and Access the System: Log in to your issue tracking system
+
+2)Create a New Issue/Bug Report:
+Find and click on the "Create Issue" or "New Issue" button
+
+3)Issue Type Selection:
+Choose the appropriate issue type such as "Bug" "Task," "Feature," or custom types based on your project's workflow.
+
+4)Issue Details:
+  Fill in the necessary details for the issue, including:
+  Title
+  Description
+  Priority
+  Assignee
+  Labels/Tags
+
+5)Attachments:
+
+If applicable, attach screenshots, log files, or any other relevant files that can help in understanding and resolving the issue.
+
+6)Save or Submit:
+Depending on your issue tracking system, there will be a "Save" or "Submit" button. Click it to create the issue.
+
+7)Notification:
+The system may notify team members about the new issue, depending on your notification settings.
+
+
+Task 2: Explain how to assign the issue to a specific team member.
+
+1)Open the Issue:
+Navigate to the issue you want to assign in your issue tracking system.
+
+2)Edit the Issue:
+Look for an "Edit" or "Assign" button, typically located near the issue's details.
+
+3)Assignee Selection:
+Find the "Assignee" field and select the team member to whom you want to assign the issue from the dropdown list.
+
+4)Save or Update:
+Click the "Save" or "Update" button to apply the assignment.
+
+5)Notification:
+The system will typically notify the assigned team member about their new task. They will now be responsible for addressing the issue.
+
+Task 3: Describe how to use Git branches and pull requests to work on the issue, ensuring that changes are tracked and reviewed.
+
+1)Create a New Branch:
+git checkout -b bugfix/critical-bug-description
+
+2)Work on the Issue:
+Make code changes related to the issue in this new branch
+git commit -m "Fix critical bug - Issue #1"
+
+3)Push the Branch:
+Push the branch to the remote repository so that others can access it.
+git push origin bugfix/critical-bug-description
+
+4)Create a Pull Request (PR):
+ create a new pull request from your branch to the main or development branch.
+Provide a detailed description of the changes made and reference the issue in the PR
+
+5)Review Process:
+
+Team members review the code changes within the pull request. They can provide feedback and comments directly in the PR.
+
+6)Merge the PR:
+Once the PR is approved by the team and all required checks pass, merge it into the main or development branch.
+
+7)Delete the Branch:
+After merging, it's a good practice to delete the issue-specific branch.
+git branch -d bugfix/critical-bug-description
+
+
+
+
+
+
+
